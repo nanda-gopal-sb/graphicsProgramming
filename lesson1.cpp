@@ -19,7 +19,7 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height)
 {
     glViewport(0, 0, width, height);
 }
-int main()
+int run() // change to main
 {
     glfwInit();                                    // initializes the window
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); // major version
