@@ -1,4 +1,2 @@
 /.vscode
-/glad
-helloTriangle
-lesson1
+*.c
